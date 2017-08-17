@@ -5,10 +5,10 @@
 
     <groupId>com.laibao.microservice</groupId>
     <artifactId>kotlin-microservice-demo</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>com.laibao.microservice kotlin-microservice-demo</name>
+    <name>com.laibao.microservice kotlin-microservice-demo </name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -68,6 +68,7 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
 
     <build>
         <sourceDirectory>src/main/kotlin</sourceDirectory>
