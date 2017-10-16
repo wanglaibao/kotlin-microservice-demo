@@ -24,9 +24,6 @@
 # .idea/gradle.xml
 # .idea/libraries
 
-# Mongo Explorer plugin:
-# .idea/mongoSettings.xml
-
 ## File-based project format:
 *.ipr
 *.iws
