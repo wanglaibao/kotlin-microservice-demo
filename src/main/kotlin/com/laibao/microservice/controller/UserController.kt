@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.RestController
 
 
 @RestController
-class UserController (val userService: UserService){
+class UserController(val userService: UserService){
 
-    //@Autowired
-    //lateinit var userRepository: UserRepository
+//    @Autowired
+//    lateinit var userService: UserService
 
     @GetMapping(value = "/{id}")
     fun findById(@PathVariable id: Long?): User {
@@ -19,4 +19,6 @@ class UserController (val userService: UserService){
         return findOne
     }
 
+    @GetMapping("/all")
+    fun findAllUserList(): List<User> = userService.findAllUser()
 }
