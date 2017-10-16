@@ -2,4 +2,9 @@ insert into user (id, account, name, age, balance) values (1, 'account1', 'zhang
 insert into user (id, account, name, age, balance) values (2, 'account2', 'lisi', 28, 180.00);
 insert into user (id, account, name, age, balance) values (3, 'account3', 'wangwu', 32, 280.00);
 insert into user (id, account, name, age, balance) values (4, 'account4', 'xiaoer', 35, 2380.00);
-insert into user (id, account, name, age, balance) values (5, 'account5', 'laojiang', 132, 2080.00);
+insert into user (id, account, name, age, balance) values (5, 'account5', 'laojiang', 130, 2080.00);
+insert into user (id, account, name, age, balance) values (6, 'account6', 'laojiang', 131, 2076.00);
+insert into user (id, account, name, age, balance) values (7, 'account7', 'laojiang', 132, 2078.00);
+insert into user (id, account, name, age, balance) values (8, 'account8', 'laojiang', 133, 2079.00);
+insert into user (id, account, name, age, balance) values (9, 'account9', 'laojiang', 134, 2080.00);
+insert into user (id, account, name, age, balance) values (10, 'account10', 'laojiang', 135, 2081.00);
